@@ -3,6 +3,7 @@
 	"displayName": "taro-pages",
 	"description": "自动生成Taro小程序文件夹和路由",
 	"version": "0.0.1",
+	"publisher": "duxuyang-666",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
@@ -12,7 +13,7 @@
 	"activationEvents": [
 		"*"
 	],
-	"icon": "./images/logo.png",
+	"icon": "images/logo.png",
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [{
