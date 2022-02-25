@@ -17,7 +17,7 @@
 	"contributes": {
 		"commands": [{
 			"command": "taro-pages.createTaroDir",
-
+			"title": "创建page文件 taro",
 			"key": "Ctrl+Shift+M"
 		}],
 		"menus": {
