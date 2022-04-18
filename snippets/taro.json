@@ -1,99 +1,108 @@
 {
   "className react className": {
-    "prefix": "class",
-    "body": ["className={cx('${0}')}"],
-    "description": "className"
-  },
-  "className react": {
-    "prefix": "cla",
-    "body": ["className={cx('${0}')}"],
-    "description": "className"
-  },
-  "className": {
-    "prefix": "cl",
-    "body": ["className={cx('${0}')}"],
-    "description": "className"
-  },
-  "View taro": {
-    "prefix": "V",
-    "body": ["<View>$0</View>"],
-    "description": "View"
-  },
-  "View": {
-    "prefix": "vi",
-    "body": ["<View>$0</View>"],
-    "description": "View"
-  },
-  "View taro Tag": {
-    "prefix": "vie",
-    "body": ["<View>$0</View>"],
-    "description": "View"
-  },
-  "View taro React": {
-    "prefix": "view",
-    "body": ["<View>$0</View>"],
-    "description": "View"
-  },
-  "Text taro": {
-    "prefix": "T",
-    "body": ["<Text>$0</Text>"],
-    "description": "Text"
-  },
-  "Text taro text": {
-    "prefix": "te",
-    "body": ["<Text>$0</Text>"],
-    "description": "Text"
-  },
-  "Text taro Text tag": {
-    "prefix": "tex",
-    "body": ["<Text>$0</Text>"],
-    "description": "Text"
-  },
-  "Text taro Text": {
-    "prefix": "text",
-    "body": ["<Text>$0</Text>"],
-    "description": "Text"
-  },
-  "Button taro": {
-    "prefix": "B",
-    "body": ["<Button>$0</Button>"],
-    "description": "Button"
-  },
-  "Button taro Button": {
-    "prefix": "Bu",
-    "body": ["<Button>$0</Button>"],
-    "description": "Button"
-  },
-  "Button taro Button tag": {
-    "prefix": "But",
-    "body": ["<Button>$0</Button>"],
-    "description": "Button"
-  },
-  "Button taro Button tags": {
-    "prefix": "Butt",
-    "body": ["<Button>$0</Button>"],
-    "description": "Button"
-  },
-  "Image taro": {
-    "prefix": "I",
-    "body": ["<Image>$0</Image>"],
-    "description": "Image"
-  },
-  "Image taro Image": {
-    "prefix": "Im",
-    "body": ["<Image>$0</Image>"],
-    "description": "Image"
-  },
-  "Image taro Image tag": {
-    "prefix": "Ima",
-    "body": ["<Image>$0</Image>"],
-    "description": "Image"
-  },
-  "Input taro Input":{
-    "prefix":"I",
-    "body":[
-    "<Input>$0</Input>"
+    "prefix": [
+      "class",
+      "cl",
+      "cla",
+      "clas",
+      "class",
+      "cn",
+      "classN",
+      "classNa",
+      "classNam",
+      "className"
     ],
-    "description":"taro Input"
-    }
+    "body": ["className={cx('${0}')}"],
+    "description": "className"
+  },
+  "taro View": {
+    "prefix": ["V", "Vi", "Vie", "View", "vi", "vie", "view"],
+    "body": ["<View>$0</View>"],
+    "description": "View"
+  },
+  "taro Text": {
+    "prefix": ["T", "Te", "Tex", "Text", "te", "tex", "text"],
+    "body": ["<Text>$0</Text>"],
+    "description": "Text"
+  },
+  "taro Button": {
+    "prefix": ["B", "Bu", "But", "Butt", "Button"],
+    "body": ["<Button>$0</Button>"],
+    "description": "Button"
+  },
+  "taro Image": {
+    "prefix": ["I", "Im", "Ima", "Imag", "Image"],
+    "body": ["<Image>$0</Image>"],
+    "description": "Image"
+  },
+  "taro Input": {
+    "prefix": ["In", "Inp", "Inpu", "Input"],
+    "body": ["<Input>$0</Input>"],
+    "description": "taro Input"
+  },
+  "taro Scrollview": {
+    "prefix": ["S", "Sc", "Scr", "Scro", "Scrol"],
+    "body": ["<Scrollview>$0</Scrollview>"],
+    "description": "Scrollview"
+  },
+  "taro RichText": {
+    "prefix": ["R", "Ri", "Ric", "Rich", "RichT"],
+    "body": ["<RichText>$0</RichText>"],
+    "description": "RichText"
+  },
+  "taro Video": {
+    "prefix": ["Vi", "Vid", "Vide", "Video"],
+    "body": ["<Video>$0</Video>"],
+    "description": "Video"
+  },
+  "taro Radio": {
+    "prefix": ["Ra", "Rad", "Radi", "Radio"],
+    "body": ["<Radio>$0</Radio>"],
+    "description": "Radio"
+  },
+  "taro Swiper": {
+    "prefix": ["Sw", "Swi", "Swip", "Swiper"],
+    "body": ["<Swiper>$0</Swiper>"],
+    "description": "Swiper"
+  },
+  "taro Slider": {
+    "prefix": ["Sl", "Sli", "Slid", "Slide", "Slider"],
+    "body": ["<Scrollview>$0</Scrollview>"],
+    "description": "Scrollview"
+  },
+  "taro Icon": {
+    "prefix": ["Ic", "Ico", "Icon"],
+    "body": ["<Icon>$0</Icon>"],
+    "description": "Icon"
+  },
+  "taro Progress": {
+    "prefix": ["Pr", "Pro", "Prog", "Progr", "Progre", "Progres", "Progress"],
+    "body": ["<Progress>$0</Progress>"],
+    "description": "Progress"
+  },
+  "Checkbox": {
+    "prefix": ["Ch", "Che", "Chec", "Check", "Checkb", "Checkbo", "Checkbox"],
+    "body": ["<Checkbox>$0</Checkbox>"],
+    "description": "Checkbox"
+  },
+  "Form": {
+    "prefix": ["Fo", "For", "Form"],
+    "body": ["<Form>$0</Form>"],
+    "description": "Form"
+  },
+  "Picker": {
+    "prefix": ["Pi", "Pic", "Pick", "Picke", "Picker"],
+    "body": ["<Picker>$0</Picker>"],
+    "description": "Picker"
+  },
+  "PickerView": {
+    "prefix": ["Pi", "PV", "pv", "pickerView"],
+    "body": ["<PickerView>$0</PickerView>"],
+    "description": "PickerView"
+  },
+  "taro WebView": {
+    "prefix": ["W", "We", "Web", "webview", "WebV", "WebVi", "WebVie", "WebView"],
+    "body": ["<WebView>$0</WebView>"],
+    "description": "WebView"
+  }
 }
