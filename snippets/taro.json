@@ -1,0 +1,99 @@
+{
+  "className react className": {
+    "prefix": "class",
+    "body": ["className={cx('${0}')}"],
+    "description": "className"
+  },
+  "className react": {
+    "prefix": "cla",
+    "body": ["className={cx('${0}')}"],
+    "description": "className"
+  },
+  "className": {
+    "prefix": "cl",
+    "body": ["className={cx('${0}')}"],
+    "description": "className"
+  },
+  "View taro": {
+    "prefix": "V",
+    "body": ["<View>$0</View>"],
+    "description": "View"
+  },
+  "View": {
+    "prefix": "vi",
+    "body": ["<View>$0</View>"],
+    "description": "View"
+  },
+  "View taro Tag": {
+    "prefix": "vie",
+    "body": ["<View>$0</View>"],
+    "description": "View"
+  },
+  "View taro React": {
+    "prefix": "view",
+    "body": ["<View>$0</View>"],
+    "description": "View"
+  },
+  "Text taro": {
+    "prefix": "T",
+    "body": ["<Text>$0</Text>"],
+    "description": "Text"
+  },
+  "Text taro text": {
+    "prefix": "te",
+    "body": ["<Text>$0</Text>"],
+    "description": "Text"
+  },
+  "Text taro Text tag": {
+    "prefix": "tex",
+    "body": ["<Text>$0</Text>"],
+    "description": "Text"
+  },
+  "Text taro Text": {
+    "prefix": "text",
+    "body": ["<Text>$0</Text>"],
+    "description": "Text"
+  },
+  "Button taro": {
+    "prefix": "B",
+    "body": ["<Button>$0</Button>"],
+    "description": "Button"
+  },
+  "Button taro Button": {
+    "prefix": "Bu",
+    "body": ["<Button>$0</Button>"],
+    "description": "Button"
+  },
+  "Button taro Button tag": {
+    "prefix": "But",
+    "body": ["<Button>$0</Button>"],
+    "description": "Button"
+  },
+  "Button taro Button tags": {
+    "prefix": "Butt",
+    "body": ["<Button>$0</Button>"],
+    "description": "Button"
+  },
+  "Image taro": {
+    "prefix": "I",
+    "body": ["<Image>$0</Image>"],
+    "description": "Image"
+  },
+  "Image taro Image": {
+    "prefix": "Im",
+    "body": ["<Image>$0</Image>"],
+    "description": "Image"
+  },
+  "Image taro Image tag": {
+    "prefix": "Ima",
+    "body": ["<Image>$0</Image>"],
+    "description": "Image"
+  },
+  "Input taro Input":{
+    "prefix":"I",
+    "body":[
+    "<Input>$0</Input>"
+    ],
+    "description":"taro Input"
+    }
+}
