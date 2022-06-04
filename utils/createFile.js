@@ -40,13 +40,22 @@ export default {
 const changeConfig = (filePath, name) => {
   const route = `pages/${name}/index`;
 
-  // 增加小程序页面路由，读取js文件，在路由处插入指定路由
-  const content = JSON.stringify(fs.readFileSync(filePath, 'utf8'));
-  const con = content.replace(/(?<=pages:).*(?=],)/gm, (item) => {
-    const val = item.replace(/'\\n/g, '\',\\n');
-    return `${val}'${route}',\\n`;
-  });
-  fs.writeFileSync(filePath, JSON.parse(con));
+    // 读取文件内容
+    let configCon = fs.readFileSync(filePath, 'utf8').split('\n');
+    // 过滤换行符
+    configCon = configCon.filter(e => e.replace(/(\r\n|\n|\r)/gm, ''));
+
+    const pageIndex = configCon.findIndex(value => value.indexOf(']') >= 0);
+    // 末尾没有逗号，增加逗号
+    if (!configCon[pageIndex - 1].includes(',')) {
+        configCon[pageIndex - 1] = configCon[pageIndex - 1] + ',';
+    }
+    configCon.splice(pageIndex, 0, `'${route}',`);
+    const content = configCon.join('\n');
+    fs.writeFileSync(
+        filePath,
+        content
+    );
 };
 
 // 创建page文件/模板
